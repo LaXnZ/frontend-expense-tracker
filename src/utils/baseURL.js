@@ -1,2 +1,2 @@
-const baseURL = "https://saverly-expense-tracker.onrender.com";
+const baseURL = "http://localhost:5000/api";
 export default baseURL;
