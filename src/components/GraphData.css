@@ -1,0 +1,17 @@
+/* .headingDashboard h1 {
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.headingDashboard {
+  padding-bottom: 15px;
+} */
+h1{
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 29px;
+  color: rgb(117, 178, 212);
+  font-weight: 700;
+  text-decoration: underline;
+}

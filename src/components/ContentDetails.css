@@ -1,0 +1,39 @@
+.update-btn {
+  background-color: #287dbe;
+  color: #ffffff;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  margin-right: 40px;
+  margin-left: -100px;
+  font-size: medium;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  transition: transform 0.45ease;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
+}
+.update-btn:hover {
+  background-color: rgb(48, 128, 131);
+}
+
+.delete-btn {
+  background-color: #be2828;
+  color: #ffffff;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  font-size: medium;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  transition: transform 0.45ease;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
+  margin-left: 40px;
+  margin-right: -100px;
+}
+.delete-btn:hover {
+  background-color: rgb(104, 37, 37);
+}

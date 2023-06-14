@@ -1,0 +1,132 @@
+.expensebox {
+  width: 400px;
+  background-color: #90bacd;
+  margin: auto;
+  color: #050505;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
+}
+.title {
+  width: 250px;
+  height: 30px;
+  background-color: #ffffff;
+}
+
+.btn {
+  background-color: #287dbe;
+  color: #ffffff;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  font-size: medium;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  transition: transform 0.45ease;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
+}
+.btn:hover {
+  background-color: rgb(48, 128, 131);
+}
+
+.delete-btn {
+  background-color: #be2828;
+  color: #ffffff;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  font-size: medium;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  transition: transform 0.45ease;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
+}
+.delete-btn:hover {
+  background-color: rgb(104, 37, 37);
+}
+
+.input {
+  background-color: white;
+}
+
+/*styling for update expense*/
+.box {
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  align-items: center;
+}
+.incomebox {
+  align-items: center;
+  width: 400px;
+  background-color: #90bacd;
+  margin: auto;
+  color: #050505;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
+}
+
+.title {
+  width: 250px;
+  height: 30px;
+  background-color: #ffffff;
+  font-size: medium;
+}
+.description {
+  width: 250px;
+  height: 30px;
+  background-color: #ffffff;
+  font-size: medium;
+}
+.amount {
+  width: 250px;
+  height: 30px;
+  background-color: #ffffff;
+  font-size: medium;
+}
+.update {
+  font-size: medium;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+#buttonupdate {
+  background-color: #287dbe;
+  color: #ffffff;
+  align-items: center;
+  border-radius: 5px 5px 5px 5px;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  transition: transform 0.45ease;
+  text-decoration: none;
+  box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
+}
+#buttonupdate:hover {
+  background-color: rgb(102, 127, 128);
+}
+.Validation {
+  color: rgb(184, 35, 35);
+  font-weight: 300;
+}
+
+.btn-field {
+  /*style for the update button*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error-msg {
+  color: rgb(226, 4, 4);
+}

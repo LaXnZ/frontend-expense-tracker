@@ -1,0 +1,78 @@
+footer {
+  clear: both;  
+  margin-top: 32px;
+  bottom: 0px;
+  width: 100%;
+  font-family: "segoe UI";
+  font-weight: 400;
+  background-color: #000;
+  text-align: center;
+  color: aliceblue;
+
+  /* footer postion is fixed from this following keyboard */
+  /* position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+}
+footer h2 {
+  padding: 20px;
+  color: aliceblue;
+}
+footer.footer .social a {
+  color: aliceblue;
+  padding: 10px;
+  font-size: 15px;
+  text-decoration: none;
+}
+footer.footer .social a:hover {
+  color: rgb(133, 158, 180);
+}
+footer.footer .social a i {
+  padding: 20px;
+  font-size: 20px;
+}
+footer.footer .quiklinks ul {
+  padding: 30px;
+}
+footer.footer .quiklinks ul a {
+  list-style: none;
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-flex;
+}
+footer.footer .quiklinks ul a:hover {
+  opacity: 0.8;
+  color: rgb(136, 162, 184);
+}
+footer.footer .quiklinks ul a li {
+  display: inline;
+  text-align: center;
+}
+footer.footer .coppyright {
+  color: aliceblue;
+  padding: 20px;
+}
+@media screen and (max-width: 600px) {
+  .footer.footer {
+    font-family: "segoe UI";
+    font-weight: 200;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+  }
+  footer.footer .quiklinks ul {
+    padding: 20px;
+  }
+  footer.footer .quiklinks ul a {
+    list-style: none;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    display: grid;
+  }
+}

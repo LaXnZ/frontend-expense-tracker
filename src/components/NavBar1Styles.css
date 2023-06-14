@@ -1,0 +1,95 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+} 
+#navBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navBar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navBar li a{
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.dashboard-btn{
+    display: inline-block;
+    background-color: #1d6070;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.profile-btn{
+    display: inline-block;
+    background-color: #1d6070;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 40px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.expense-btn{
+    display: inline-block;
+    background-color: #17cf97;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.income-btn{
+    display: inline-block;
+    background-color: #17cf97;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.logout-btn{
+    display: inline-block;
+    background-color: #1d6070;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 40px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.dashboard-btn:hover,.profile-btn:hover,
+.expense-btn:hover,.income-btn:hover,
+.logout-btn:hover{
+    background-color: #555;
+}
+
+.expenselist-btn{
+    transition: 0.3s ease;
+}
+.incomelist-btn{
+    transition: 0.3s ease;
+}
+.expenselist-btn:hover,.incomelist-btn:hover{
+    font: #17cf97;
+    
+}
